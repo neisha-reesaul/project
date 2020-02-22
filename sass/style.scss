@@ -38,16 +38,20 @@ nav {
         padding:30px;
     }
    
-    a {
+    a{
         display:inline-block;
         font-size:15px;
-        cursor: pointer;
         
-        :hover {
+        &:hover {
             font-weight: bold;
-            text-decoration: underline;
+            
         }
     }
+}
+
+.current {
+            background-color:#8000ff;
+            padding:0px 10px;
 }
 
 .display {
