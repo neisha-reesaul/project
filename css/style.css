@@ -1,0 +1,105 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 21, 2020, 2:45:45 PM
+    Author     : user
+*/
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 14px;
+}
+
+header {
+  background-color: black;
+  color: #ccc;
+  height: 110px;
+}
+
+header .title {
+  float: left;
+  padding: 20px;
+}
+
+nav {
+  float: right;
+}
+nav li {
+  display: inline;
+  float: left;
+  list-style: none;
+  padding: 30px;
+}
+nav a {
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+}
+nav a :hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.display {
+  background: url("../img/showcase.jpg") no-repeat center/cover;
+  width: 100%;
+  position: relative;
+  overflow-y: hidden;
+  height: 300px;
+}
+.display h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #ccc;
+}
+.display p {
+  text-align: center;
+  font-size: 20px;
+  color: #ccc;
+}
+
+.newsletter {
+  background-color: black;
+  height: 80px;
+  color: #ccc;
+}
+.newsletter h3 {
+  float: left;
+  padding: 10px 60px;
+}
+.newsletter form {
+  float: right;
+  padding: 30px;
+}
+.newsletter .btn {
+  border: none;
+  border-radius: 1px solid #007bff;
+  width: 100px;
+  height: 30px;
+  background-color: #007bff;
+}
+.newsletter input {
+  height: 25px;
+}
+
+.box {
+  display: inline-block;
+  margin-top: 20px;
+  width: 25%;
+  text-align: center;
+  margin-left: 10px;
+}
+
+footer {
+  background-color: #FF7F50;
+  height: 40px;
+}
+footer p {
+  text-align: center;
+  font-weight: bold;
+  padding: 13px;
+}
+
+/*# sourceMappingURL=style.css.map */
