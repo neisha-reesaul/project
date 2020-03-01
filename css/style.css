@@ -105,4 +105,55 @@ footer p {
   padding: 13px;
 }
 
+@media only screen and (max-width: 768px) {
+  header {
+    height: auto;
+    background-color: black;
+    overflow: hidden;
+  }
+
+  header .title {
+    float: none;
+  }
+
+  nav {
+    float: none;
+  }
+  nav li {
+    display: block;
+    padding: 20px;
+    float: none;
+  }
+
+  .display {
+    overflow: hidden;
+  }
+  .display h1 {
+    font-size: 25px;
+    margin-top: 120px;
+  }
+  .display p {
+    font-size: 14px;
+  }
+
+  .newsletter {
+    height: auto;
+    overflow: hidden;
+  }
+  .newsletter h3 {
+    float: none;
+    padding-top: 30px;
+    padding-left: 28px;
+  }
+  .newsletter form {
+    float: none;
+    padding-top: 20px;
+  }
+
+  .box {
+    display: block;
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
