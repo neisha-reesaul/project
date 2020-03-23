@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/home.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/price.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <nav class="navbarcontainer navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="" class="navbar-brand">MEDIA</a>
+                </div>
+                <div class=" navigation-bar collapse navbar-collapse" id="mynavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Team</a></li>
+                        <li><a href="">Clients</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+            <div class=" newsletter row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="text col-md-6">
+                            <h1>Responsive Web Design</h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since 1500s , when an unknown printer
+                            took a gallery of type and scrambled it to make a type specimen book.
+                            It has survived not only five centuries , but also the leap into electronic typesetting.</p>
+                        </div>
+                        <div class='col-md-6'>
+                            <img src='img/pic.png' class='picture'>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing_table">
+                <div class="row">
+                    <div class="display_pricing--table col-md-4">
+                        <div class="panel panel-primary">
+                            <div class="pricing_table--heading panel-heading"> - BASIC -
+                            </div>
+                                <div class="panel-body pricing_table--price">
+                                    <h3>$50</h3>
+                                </div>
+                            <ul class="list-group">
+                                <li class="list-group-item">30 free trial days</li>
+                                <li class="list-group-item">50gb storage space</li>
+                                <li class="list-group-item">20% discount</li>
+                            </ul>
+                            <div class="panel-footer">
+                                <button type="submit"  id="btn-basic" class="btn btn-primary btn-lg pricing_table--btn" data-toggle="modal" data-target="#exampleModal">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" display_pricing--table col-md-4">
+                        <div class="panel panel-primary">
+                            <div class="pricing_table--heading panel-heading">- BUSINESS - 
+                            </div>
+                            <div class="panel-body pricing_table--price">
+                                    <h3>$80</h3>
+                            </div>
+                            <ul class="list-group">
+                                <li class="list-group-item">40 free trial days</li>
+                                <li class="list-group-item">100gb storage space</li>
+                                <li class="list-group-item">25% discount</li>
+                            </ul>
+                            <div class="panel-footer">
+                                <button type="submit" id="btn-business" class="btn btn-primary btn-lg pricing_table--btn" data-toggle="modal" data-target="#exampleModal">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="display_pricing--table col-md-4">
+                        <div class="panel panel-primary">
+                            <div class="pricing_table--heading panel-heading">- PREMIUM - 
+                            </div>
+                                <div class="panel-body pricing_table--price">
+                                    <h3>$130</h3>
+                                </div>
+                            <ul class="list-group">
+                                <li class="list-group-item">50 free trial days</li>
+                                <li class="list-group-item">200gb storage space</li>
+                                <li class="list-group-item">40% discount</li>
+                            </ul>
+                            <div class="panel-footer">
+                                <button type="submit" id="btn-prenium" class="btn btn-primary btn-lg pricing_table--btn" data-toggle="modal" data-target="#exampleModal">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="display_price--form">
+               <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="display_price--form-title modal-title" id="exampleModalLabel">Pricing Details</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <form action="data.php" method="post">
+			<div class="modal-body">
+			    <div class="form-group row">
+				<label for="name" class="col-sm-3 col-form-label">Name</label>
+				<div class="col-sm-9">
+				     <input type="text" class="form-control" id="name" name="fullname" placeholder="Enter Name">
+				</div>
+			    </div>
+				<div class="form-group row">
+				    <label for="address" class="col-sm-3 col-form-label">Address</label>
+					<div class="col-sm-9">
+					    <input type="text" class="form-control" id="address" name="address" placeholder="Enter Address">
+					</div>
+				</div>
+				<div class="form-group row">
+				    <label for="email" class="col-sm-3 col-form-label">Email</label>
+					<div class="col-sm-9">
+					    <input type="email" class="form-control" id="email"  name="email" placeholder="Enter Email">
+					</div>
+				</div>
+				<div class="form-group row">
+				    <label for="price" class="col-sm-3 col-form-label">Total Price </label>
+					<div class="col-sm-9">
+					    <input type="text" class="form-control" id="price" name="price" value="" readonly>
+					</div>
+				</div>
+			    </div>
+			    <div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+				<button type="submit" class="btn btn-primary btn-save" name="btn-save">Save changes</button>
+			    </div>
+		    </form>
+                  </div>
+                </div>
+            </div>
+        </div>
+        </div> 
+         <footer>
+            <p>ACME Web Design Copyright &copy; 2020</p>
+        </footer>
+    </body>
+</html>
