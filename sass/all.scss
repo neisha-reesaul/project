@@ -1,0 +1,113 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 7, 2020, 10:27:58 AM
+    Author     : user
+*/
+
+.container-wrapper {
+    padding:0;
+    margin:0;
+    overflow: hidden;
+    
+}
+    
+    .banner {
+         background: url("../img/showcase.jpg") no-repeat center/cover;
+         width: 100%;
+         position:relative;
+         overflow: hidden;
+         height:300px;
+         margin-top:50px;
+         padding:50px;
+         color:#fff;
+         text-align: center;
+         
+        .title {
+           padding-bottom: 20px;
+           font-size:40px;
+       }
+    }
+
+
+    .newsletter {
+        background-color:black;
+        height:80px;
+        color:#fff;
+        font-size:16px;
+        
+        .newsletter_title {
+            padding:30px;
+        }
+        
+        .form-wrapper {
+            padding-top:25px;
+            float:right;
+        }
+    }
+    
+    .box-wrapper {
+        display:flex;
+        
+        .box {
+            text-align: center;
+            padding:5px;
+        }
+        
+        .box-title {
+            font-weight: bold;
+        }
+    }
+ footer {
+        background-color:#FF7F50;
+        height:40px;
+        
+        p {
+            text-align: center;
+            font-weight: bold;
+            padding:13px;
+        }
+    }
+
+
+    @media screen and (max-width:768px){
+        
+        .banner {
+            padding:50px;
+            
+            .title {
+                font-size:20px;
+            }
+        }
+        
+        .box-wrapper {
+            display:block;
+        }
+    }
+	
+	 @media screen and (max-width:992px){
+        
+       
+        .newsletter {
+            height :auto;
+            padding:20px;
+            
+            .newsletter_title {
+                padding:15px;
+            }
+            
+            .form-wrapper {
+                float:none;
+                
+                .form-control {
+                    margin-bottom:10px;
+                }
+            }
+            
+            
+        }
+       
+    }

@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 20, 2020, 10:44:21 AM
+    Author     : user
+*/
+
+.navbarcontainer {
+    margin-bottom: 10px;
+}
+
+
+.navigation-bar {
+    a {
+        text-transform: uppercase;
+    }
+}
+
+.newsletter {
+    background: url('../img/bg3.jpg') no-repeat top center;
+    background-size:cover;
+    height:500px;
+    margin-top: 50px;
+    
+    .text {
+        margin-top:150px;
+        color:#ccc;
+        text-align: center;
+    }
+    
+    .picture {
+        overflow: hidden;
+        width:600px;
+        margin-top:30px;
+    }
+}
+
+.pricing_table {
+    text-align: center;
+    margin-top: 15px;
+    
+    .pricing_table--heading {
+        font-size: 20px;
+    }
+    
+    .pricing_table--btn {
+        display:block;
+        text-transform: uppercase;
+        width:100%;
+    }
+}
+
+.display_price--form {
+    .display_price--form-title {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size:18px;
+    }
+}
+
+ footer {
+        background-color:#FF7F50;
+        height:40px;
+        
+        p {
+            text-align: center;
+            font-weight: bold;
+            padding:13px;
+        }
+    }
+
+
+
+@media screen and (max-width:992px){
+    .newsletter {
+        height :auto;
+        
+        .picture {
+            width:auto;
+            height:auto;
+        }
+    }
+    
+}
