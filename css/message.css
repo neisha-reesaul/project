@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 24, 2020, 9:53:50 AM
+    Author     : user
+*/
+.display_modal {
+  margin-top: 100px;
+  overflow: visible !important;
+}
+.display_modal .display_modal--header {
+  height: 100px;
+  width: 100px;
+  background-color: #398439;
+  border-radius: 50%;
+  text-align: center;
+  padding: 35px;
+  position: relative;
+  left: 40%;
+  bottom: 50px;
+}
+.display_modal .display_modal--icon {
+  font-weight: bold;
+  color: #ccc;
+}
+.display_modal .display_modal--body {
+  text-align: center;
+  font-weight: bold;
+}
+.display_modal .display_modal--btn {
+  display: block;
+  width: 100%;
+}
+.display_modal .display_modal--footer {
+  border-top: none !important;
+}
+
+/*# sourceMappingURL=message.css.map */
