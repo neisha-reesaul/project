@@ -21,7 +21,7 @@ if(isset($_POST['btn-save'])) {
 	VALUES ('$name' ,'$address' , '$email' , '$price')";
 
 	if ($conn->query($sql) === TRUE) {
-		echo "Details have been registered successfully";
+		echo file_get_contents("message.html");
 	} else {
 		echo "Error: " . $sql . "<br>" . $conn->error;
 	}

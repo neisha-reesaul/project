@@ -19,6 +19,17 @@ and open the template in the editor.
     }
 }
 
+.btn-grp {
+    margin-top:8px;
+}
+
+.username {
+    color:#ccc;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right:10px;
+}
+
 .newsletter {
     background: url('../img/bg3.jpg') no-repeat top center;
     background-size:cover;
@@ -73,7 +84,10 @@ and open the template in the editor.
         }
     }
 
-
+    .sign-in-btn {
+        display:block;
+        width:100%;
+    }
 
 @media screen and (max-width:992px){
     .newsletter {
